@@ -37,12 +37,14 @@ body {
   justify-content: space-between;
   padding: 18px 0;
 }
+
 .container .wrapper .main header img {
   width: 120px;
   height: auto;
   object-fit: contain;
   cursor: pointer;
 }
+
 .container .wrapper .main header nav ul {
   list-style-type: none;
 }
@@ -178,10 +180,24 @@ body {
   margin: 12px 0;
 }
 
-.how_it_works_steps li,.Built_with li {
+.how_it_works_steps li,
+.Built_with li {
   font-size: 14px;
   line-height: 28px;
   color: #94A1B2;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  height: 54px;
+  background-color: #16161A;
+  color: #FFFFFE;
+}
+footer p {
+  word-spacing: 4px;
 }
 
 .loader {
@@ -223,15 +239,17 @@ body {
   .container .wrapper {
     margin: 0;
   }
-  
+
   .container .wrapper .main {
     border-radius: 0;
   }
+
   .container .wrapper .flex .flexbox.left_flexbox>div {
     padding: 15% 0 0 5%;
     width: 90%;
   }
-  .container .wrapper  .flex .flexbox {
+
+  .container .wrapper .flex .flexbox {
     flex: 100%;
   }
 }
