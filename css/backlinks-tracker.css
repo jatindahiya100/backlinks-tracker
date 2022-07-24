@@ -8,6 +8,7 @@ html {
 }
 
 body {
+  height: 100%;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
@@ -17,11 +18,12 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1440px;
-  height: max-content;
+  height: 100%;
 }
 
 .container .wrapper {
   margin: 1%;
+  min-height: 100%;
 }
 
 .container .wrapper .main,
@@ -233,6 +235,7 @@ body {
   .container .wrapper .main {
     border-radius: 0;
   }
+
   .container .wrapper .Built_with {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
