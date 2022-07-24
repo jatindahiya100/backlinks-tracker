@@ -218,7 +218,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .container .wrapper .main .flex .flexbox {
+  .container .wrapper  .flex .flexbox {
     flex: 100%;
   }
 }
