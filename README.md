@@ -1,4 +1,4 @@
-# backlinks-tracker
+# Backlinks Tracking Tool
 
 # What are Backlinks?
 Backlinks occur when one website links to another website.
