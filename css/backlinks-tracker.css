@@ -24,7 +24,7 @@ body {
   margin: 1%;
 }
 
-.container .wrapper .main {
+.container .wrapper .main, .container .wrapper .Built_with{
   width: 100%;
   border-radius: 14px;
   background: #16161A;
@@ -82,7 +82,7 @@ body {
   font-size: 1.4rem;
   line-height: 2.5rem;
   font-weight: 400;
-  color: #94A1B2;
+  
   text-align: justify;
   text-justify: inter-word;
 }
@@ -184,7 +184,6 @@ body {
 .Built_with li {
   font-size: 14px;
   line-height: 28px;
-  color: #94A1B2;
 }
 
 footer {
