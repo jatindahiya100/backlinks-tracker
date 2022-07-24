@@ -38,7 +38,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 0;
+  padding: 18px 0 0 8px;
 }
 
 .container .wrapper .main header img {
@@ -46,6 +46,13 @@ body {
   height: auto;
   object-fit: contain;
   cursor: pointer;
+}
+
+.container .wrapper .main header nav {
+  padding: 8px 0;
+  background-color: #7F5AF0;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
 }
 
 .container .wrapper .main header nav ul {
@@ -174,6 +181,7 @@ body {
 }
 
 .success {
+  margin-top: 12px;
   border: 1px solid #7F5AF0;
   background: #7F5AF0;
 }
