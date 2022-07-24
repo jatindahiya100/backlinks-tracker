@@ -11,6 +11,7 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  user-select: none;
 }
 
 .container {
@@ -34,9 +35,14 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 6px 0 0 24px;
+  padding: 18px 0;
 }
-
+.container .wrapper .main header img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+}
 .container .wrapper .main header nav ul {
   list-style-type: none;
 }
@@ -214,8 +220,15 @@ body {
 }
 
 @media (max-width: 768px) {
+  .container .wrapper {
+    margin: 0;
+  }
+  
+  .container .wrapper .main {
+    border-radius: 0;
+  }
   .container .wrapper .flex .flexbox.left_flexbox>div {
-    padding: 5% 0 0 5%;
+    padding: 15% 0 0 5%;
     width: 90%;
   }
   .container .wrapper  .flex .flexbox {
