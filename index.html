@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-M3M2SE577H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-M3M2SE577H');
+    </script> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Find Out How Many Websites Have Linked Your Site With Our Backlinks Tracker Tool. TheVillazers - Backlinks Tracker Allows You To Find How Many Backlinks Do your Website Have.">
+    <meta property="og:description" content="TheVillazers.com SEO Backlinks Tool">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Ends here... -->
+    <!-- Connecting To Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Importing Poppins Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/backlinks-tracker.css">
+    <title>Track Backlinks For Your Website</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="wrapper">
+            <Section class="main">
+                <header>
+                    <img src="images/logo-white.svg" alt="">
+                    <nav>
+                        <ul>
+                            <li id="how_it_works">How it Works?</li>
+                            <li id="navlink2">Built With</li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <div class="flex">
+                    <div class="flexbox left_flexbox">
+                        <div>
+                            <h1 style="color: #FFFFFE;">Backlinks Tracker Powered By Rapid API </h1>
+                            <p>
+                                Find how many backlinks your domain have. This tool provides you with different metrics
+                                like total backlinks, DoFollow links, NoFollow links, total domains reffering to your
+                                domain, total number of pages that points to your domain.
+                            </p>
+                            <div class="form-group">
+                                <input id="domain" type="text" placeholder="google.com">
+                                <div class="loader"></div>
+                            </div>
+                            <button class="success" id="CountBacklinks">Search</button>
+                        </div>
+                    </div>
+                    <div class="flexbox right_flexbox">
+                        <img src="images/SEO-pana.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="statistics" id="statistics">
+                    <div class="stats-items">
+                        <img src="images/icons/link.png" alt="">
+                        <p>Total Backlinks</p>
+                        <h2 id="total-backlinks">40</h2>
+                    </div>
+                    <div class="stats-items">
+                        <img src="images/icons/dofollow-links.png" alt="">
+                        <p>DoFollow Links</p>
+                        <h2 id="dofollow"></h2>
+                    </div>
+                    <div class="stats-items">
+                        <img src="images/icons/nofollow-links.png" alt="">
+                        <p>NoFollow Links</p>
+                        <h2 id="nofollow"></h2>
+                    </div>
+                    <div class="stats-items">
+                        <img src="images/icons/total-domains.png" alt="">
+                        <p>Total Domains</p>
+                        <h2 id="domain-qty"></h2>
+
+                    </div>
+                    <div class="stats-items">
+                        <img src="images/icons/total-hosts.png" alt="">
+                        <p>Total Host</p>
+                        <h2 id="host-qty"></h2>
+                    </div>
+                    <div class="stats-items">
+                        <img src="images/icons/webpages.png" alt="">
+                        <p>Total Pages</p>
+                        <h2 id="pages-qty"></h2>
+                    </div>
+                </div>
+            </Section>
+        </div>
+
+        <div class="wrapper">
+            <Section class="How_it_Works_Section">
+                <div class="flex">
+                    <div class="flexbox left_flexbox">
+                        <div>
+                            <h1>How it Works?</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tenetur eum, similique, sed
+                                excepturi dolorum voluptatem assumenda ex quis commodi voluptate officiis eligendi
+                                magni. Eos!</p>
+                            <ul class="how_it_works_steps">
+                                <li>Takes Input From User</li>
+                                <li>Processes the user input with algorithm</li>
+                                <li>Fetches data for the particular domain from rapid API</li>
+                                <li>Returns metrics on display</li>
+                            </ul>
+                            <button class="success" id="knowMore">Know More</button>
+                        </div>
+                    </div>
+                    <div class="flexbox right_flexbox">
+                        <img src="images/how-it-works.svg" alt="">
+                    </div>
+                </div>
+            </Section>
+        </div>
+
+        <div class="wrapper">
+            <Section class="Built_with">
+                <div class="flex">
+                    <div class="flexbox right_flexbox">
+                        <img src="images/JavaScript-frameworks-bro.svg" alt="">
+                    </div>
+                    <div class="flexbox left_flexbox">
+                        <div>
+                            <h1>What to Learn?</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non repudiandae doloribus temporibus sint neque quos quisquam, repellendus ut necessitatibus.</p>
+                            <ul class="Built_with">
+                                <li>HTML5 / CSS</li>
+                                <li>JavaScript</li>
+                                <li>jQuery</li>
+                                <li>API Integration</li>
+                            </ul>
+                            <button id="useTool" class="success">Use Tool</button>
+                        </div>
+                    </div>
+                </div>
+            </Section>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/backlinks-tracker.js"></script>
+</body>
+
+</html>
