@@ -24,7 +24,8 @@ body {
   margin: 1%;
 }
 
-.container .wrapper .main, .container .wrapper .Built_with{
+.container .wrapper .main,
+.container .wrapper .Built_with {
   width: 100%;
   border-radius: 14px;
   background: #16161A;
@@ -82,7 +83,7 @@ body {
   font-size: 1.4rem;
   line-height: 2.5rem;
   font-weight: 400;
-  
+
   text-align: justify;
   text-justify: inter-word;
 }
@@ -184,19 +185,6 @@ body {
 .Built_with li {
   font-size: 14px;
   line-height: 28px;
-}
-
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  height: 54px;
-  background-color: #16161A;
-  color: #FFFFFE;
-}
-footer p {
-  word-spacing: 4px;
 }
 
 .loader {
