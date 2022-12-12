@@ -47,22 +47,22 @@
 
 <body>
 
-    <div class="container">
-        <div class="wrapper">
-            <Section class="main">
-                <header>
-                    <img src="images/logo-white.svg" alt="">
-                    <nav>
-                        <ul>
-                            <li id="how_it_works">How it Works?</li>
-                            <li id="navlink2">More</li>
-                        </ul>
-                    </nav>
-                </header>
+    <header class="bg-dark">
+        <img src="images/logo-white.svg" alt="">
+        <nav>
+            <ul>
+                <li id="how_it_works">How it Works?</li>
+                <li id="navlink2">More</li>
+            </ul>
+        </nav>
+    </header>
 
-                <div class="flex">
-                    <div class="flexbox left_flexbox">
-                        <div>
+    <div class="container bg-dark">
+        <div class="wrapper">
+            <Section>
+                <div class="grid">
+                    <div class="grid-item">
+                        
                             <h1 style="color: #FFFFFE;">Backlinks Tracker Powered By Rapid API </h1>
                             <p style="color: #94A1B2;">
                                 Find how many backlinks your domain have. This tool provides you with different metrics
@@ -74,9 +74,9 @@
                                 <div class="loader"></div>
                             </div>
                             <button class="success" id="CountBacklinks">Search</button>
-                        </div>
+                        
                     </div>
-                    <div class="flexbox right_flexbox">
+                    <div class="grid-item">
                         <img src="images/SEO-pana.svg" alt="">
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                     <div class="stats-items">
                         <img src="images/icons/link.png" alt="">
                         <p>Total Backlinks</p>
-                        <h2 id="total-backlinks">40</h2>
+                        <h2 id="total-backlinks"></h2>
                     </div>
                     <div class="stats-items">
                         <img src="images/icons/dofollow-links.png" alt="">
@@ -116,58 +116,64 @@
                 </div>
             </Section>
         </div>
+    </div>
 
+    <div class="container">
         <div class="wrapper">
-            <Section class="How_it_Works_Section">
-                <div class="flex">
-                    <div class="flexbox right_flexbox">
-                        <img src="images/how-it-works.svg" alt="">
-                    </div>
-                    <div class="flexbox left_flexbox">
-                        <div>
+            <Section>
+                <div class="grid">
+                    <div class="grid-item">
+                        
                             <h1>How it Works?</h1>
                             <p style="color: #94A1B2;">This tool uses Backlink Rapid API to get various data metrics
                                 like total backlinks, total
                                 hosts, DoFollow links, NoFollow links etc.</p>
-                            <ul style="color: #94A1B2;" class="how_it_works_steps">
+                            <ul style="color: #94A1B2;">
                                 <li>Takes Input From User</li>
                                 <li>Processes the user input with algorithm</li>
                                 <li>Fetches data for the particular domain from rapid API</li>
                                 <li>Returns metrics on display</li>
                             </ul>
                             <button class="success" id="knowMore">Know More</button>
-                        </div>
+                        
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/how-it-works.svg" alt="">
                     </div>
                 </div>
             </Section>
         </div>
+    </div>
 
+    <div class="container bg-dark">
         <div class="wrapper">
-            <Section class="Built_with">
-                <div class="flex">
-                    <div class="flexbox left_flexbox">
-                        <div>
+            <Section>
+                <div class="grid">
+                    <div class="grid-item">
+                        
                             <h1 style="color: #FFFFFE;">Built With?</h1>
                             <p style="color: #94A1B2;">This project is built with HTML, CSS, JavaScript, jQuery and
                                 Backlink Rapid API. In this
                                 project data is fetched from Backlink Rapid API and response metrics are displayed on
                                 user dashboard.</p>
-                            <ul style="color: #94A1B2;" class="Built_with">
+                            <ul style="color: #94A1B2;">
                                 <li>HTML5 / CSS</li>
                                 <li>JavaScript</li>
                                 <li>jQuery</li>
                                 <li>API Integration</li>
                             </ul>
                             <button id="useTool" class="success">Use Tool</button>
-                        </div>
+                        
                     </div>
-                    <div class="flexbox right_flexbox">
+                    <div class="grid-item">
                         <img src="images/JavaScript-frameworks-bro.svg" alt="">
                     </div>
                 </div>
             </Section>
         </div>
     </div>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/backlinks-tracker.js"></script>
 </body>
