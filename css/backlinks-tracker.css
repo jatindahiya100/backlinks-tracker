@@ -234,27 +234,3 @@ header nav ul li {
     transform: rotate(360deg);
   }
 }
-
-@media (max-width: 768px) {
-  .container .wrapper {
-    margin: 0;
-  }
-
-  .container .wrapper .main {
-    border-radius: 0;
-  }
-
-  .container .wrapper .Built_with {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-
-  .container .wrapper grid .flexbox.left_flexbox>div {
-    padding: 15% 0 0 5%;
-    width: 90%;
-  }
-
-  .container .wrapper grid .flexbox {
-    flex: 100%;
-  }
-}
